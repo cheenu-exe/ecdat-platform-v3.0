@@ -10,7 +10,7 @@
 - [x] Add and update Vitest coverage for migrated auth, persistence, and copilot behavior
 - [x] Validate type checking, tests, and production build
 - [x] Verify the managed preview across all preserved workspaces
-- [ ] Save a final project checkpoint
+- [x] Save a final project checkpoint
 - [x] Verify the Dependency Graph workspace in the managed preview
 - [x] Verify the Remediation Queue workspace in the managed preview
 - [x] Re-run browser verification for all preserved workspaces and confirm no runtime errors
