@@ -1,0 +1,22 @@
+# Project TODO
+
+- [x] Migrate the existing ECDAT Command Center and shared visual system into the managed full-stack project
+- [x] Preserve CBOM inventory, dependency graph, migration, PQC dashboard, Evidence & Reports, and Remediation Queue workspaces
+- [x] Preserve the unauthenticated seeded demo scenario
+- [x] Enable Manus OAuth sign-in and sign-out with protected authenticated sessions
+- [x] Persist authenticated scan history and scan-detail access in the managed database
+- [x] Connect Manus Forge to authenticated, evidence-grounded copilot guidance
+- [x] Configure managed environment variable requirements without committing secret values
+- [x] Add and update Vitest coverage for migrated auth, persistence, and copilot behavior
+- [x] Validate type checking, tests, and production build
+- [x] Verify the managed preview across all preserved workspaces
+- [ ] Save a final project checkpoint
+- [x] Verify the Dependency Graph workspace in the managed preview
+- [x] Verify the Remediation Queue workspace in the managed preview
+- [x] Re-run browser verification for all preserved workspaces and confirm no runtime errors
+- [x] Directly verify the Command Center, CBOM inventory, Migration, PQC dashboard, and Evidence & Reports routes in the managed preview
+- [x] Re-check current dev-server and browser logs after the final migration state
+- [x] Correct verification notes so all recorded metrics match the rendered managed preview
+- [x] Fix the React table whitespace warning reported during managed preview verification
+- [x] Rewrite verification notes to contain only metrics proven by the final managed-preview checks
+- [x] Re-read the final verification notes and confirm all recorded metrics are consistent
