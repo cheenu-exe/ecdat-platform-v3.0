@@ -20,3 +20,7 @@
 - [x] Fix the React table whitespace warning reported during managed preview verification
 - [x] Rewrite verification notes to contain only metrics proven by the final managed-preview checks
 - [x] Re-read the final verification notes and confirm all recorded metrics are consistent
+- [x] Fix deployment failure caused by package.json and pnpm-lock.yaml specifier drift
+- [x] Re-run deployment validation after synchronizing package metadata
+- [x] Fix QueueApp production build failure caused by the missing client/src/queue/index.css import
+- [x] Re-run type checks, tests, production build, and frozen-lockfile validation after the QueueApp fix

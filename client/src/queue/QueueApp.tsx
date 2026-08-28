@@ -7,7 +7,7 @@ import { trpc } from "@/lib/trpc";
 import RemediationQueue from "@/pages/RemediationQueue";
 import { COOKIE_NAME } from "@shared/const";
 import superjson from "superjson";
-import "./index.css";
+import "../index.css";
 
 const queryClient = new QueryClient();
 const trpcClient = trpc.createClient({
